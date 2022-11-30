@@ -49,10 +49,10 @@ if(showData){
     const data = readDataFromStorage()
     data.forEach(d=>{
         const p1 = document.createElement("p")
-        p2 = document.createElement("p")
-        p3 = document.createElement("p")
-        p4 = document.createElement("p")
-        p5 = document.createElement("p")
+        const p2 = document.createElement("p")
+        const p3 = document.createElement("p")
+        const p4 = document.createElement("p")
+        const p5 = document.createElement("p")
 
         p1.innerText = d.id
         p2.innerText = d.name
